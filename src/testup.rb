@@ -4,6 +4,9 @@
 # License: The MIT License (MIT)
 #
 #-------------------------------------------------------------------------------
+if is_a?(Sketchup::Set)
+  puts "HI"
+end
 
 if defined?(Sketchup)
   require 'sketchup.rb'
