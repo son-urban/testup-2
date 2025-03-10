@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+#SON TEST CHECKOUT
 begin
 
 require "fileutils"
@@ -37,7 +37,7 @@ puts "Version: #{version}"
 # Useful for stuff like git sha.
 # ruby tools/package 02f5d6
 postfix = ARGV[0] ? "-#{ARGV[0]}" : ''
-
+p ARGV
 
 build_version = version
 build_date = Time.now.strftime("%Y-%m-%d")
